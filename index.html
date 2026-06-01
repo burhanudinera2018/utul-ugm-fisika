@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UTUL UGM Fisika — Bank Soal Lengkap Semua Topik</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0e1a;--surface:#111827;--surface2:#1a2235;--border:#1e2d45;--accent:#00d4ff;--accent2:#ff6b35;--accent3:#7c3aed;--gold:#f59e0b;--text:#e2e8f0;--muted:#64748b;--dim:#94a3b8;--green:#10b981;--red:#ef4444;--font-h:'Syne',sans-serif;--font-b:'DM Sans',sans-serif;--font-m:'JetBrains Mono',monospace}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:var(--font-b);line-height:1.6;overflow-x:hidden}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:.8rem 2rem;display:flex;justify-content:space-between;align-items:center;backdrop-filter:blur(20px);background:rgba(10,14,26,.9);border-bottom:1px solid rgba(255,255,255,.04);z-index:1000}
+.logo{font-family:var(--font-h);font-weight:800;font-size:1rem;color:var(--accent);text-decoration:none}
+.nav-links{display:flex;gap:1.5rem;list-style:none}
+.nav-links a{color:var(--dim);text-decoration:none;font-size:.8rem;transition:color .2s}
+.nav-links a:hover{color:var(--accent)}
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:2rem;overflow:hidden;background:radial-gradient(ellipse 80% 60% at 50% 10%,rgba(0,212,255,.1) 0%,transparent 60%)}
+.hero-content{position:relative;z-index:2;max-width:800px}
+.tag{display:inline-block;padding:.3rem 1rem;border:1px solid rgba(0,212,255,.3);border-radius:100px;font-size:.75rem;font-family:var(--font-m);color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:1.5rem;background:rgba(0,212,255,.05)}
+h1{font-family:var(--font-h);font-size:clamp(2.2rem,6vw,4.5rem);font-weight:800;line-height:1.05;letter-spacing:-.03em;margin-bottom:1rem}
+.grad{background:linear-gradient(135deg,var(--accent) 0%,#a78bfa 50%,var(--accent2) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-sub{color:var(--dim);margin:0 0 2rem;font-weight:300}
+.cd-bar{display:inline-flex;gap:1rem;align-items:center;background:rgba(255,107,53,.08);border:1px solid rgba(255,107,53,.25);border-radius:12px;padding:.8rem 1.5rem;font-family:var(--font-m);margin-bottom:2rem}
+.cd-item{text-align:center}
+.cd-num{font-size:1.8rem;font-weight:600;color:var(--accent2);display:block}
+.cd-lbl{font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
+.cd-sep{color:var(--accent2);font-size:1.5rem;padding-bottom:1rem}
+.hero-cta{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.85rem 1.8rem;border-radius:10px;font-family:var(--font-h);font-weight:600;font-size:.95rem;cursor:pointer;transition:all .2s;text-decoration:none;border:none}
+.btn-p{background:linear-gradient(135deg,var(--accent),#0099cc);color:#000}
+.btn-p:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(0,212,255,.3)}
+.btn-s{background:transparent;color:var(--text);border:1px solid var(--border)}
+.btn-s:hover{border-color:var(--accent);color:var(--accent)}
+section{padding:5rem 1.5rem;position:relative;z-index:1}
+.alt{background:var(--surface)}
+.container{max-width:1100px;margin:0 auto}
+.slbl{font-family:var(--font-m);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin-bottom:.75rem}
+.stitle{font-family:var(--font-h);font-size:clamp(1.8rem,4vw,2.8rem);font-weight:800;letter-spacing:-.02em;margin-bottom:1rem}
+.ssub{color:var(--dim);font-size:1rem;max-width:600px;font-weight:300;margin-bottom:3rem}
+.mgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1rem;margin-bottom:3rem}
+.mcard{background:var(--bg);border:1px solid var(--border);border-radius:16px;padding:1.5rem;position:relative;overflow:hidden;transition:transform .2s}
+.mcard:hover{transform:translateY(-4px)}
+.mcard::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:16px 16px 0 0}
+.r::before{background:var(--accent2)}.b::before{background:var(--accent)}.p::before{background:var(--accent3)}.g::before{background:var(--green)}.o::before{background:var(--gold)}
+.mpct{font-family:var(--font-h);font-size:2.5rem;font-weight:800;line-height:1;margin-bottom:.5rem}
+.r .mpct{color:var(--accent2)}.b .mpct{color:var(--accent)}.p .mpct{color:var(--accent3)}.g .mpct{color:var(--green)}.o .mpct{color:var(--gold)}
+.mname{font-weight:600;font-size:.95rem;margin-bottom:.25rem}
+.mdesc{font-size:.78rem;color:var(--muted)}
+.tl{position:relative;padding-left:2rem}
+.tl::before{content:'';position:absolute;left:0;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,var(--accent),var(--accent3),var(--accent2))}
+.dcard{position:relative;margin-bottom:1.5rem;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:1.5rem 1.75rem;transition:border-color .2s,transform .2s}
+.dcard:hover{border-color:rgba(0,212,255,.3);transform:translateX(4px)}
+.dcard.done{border-color:rgba(16,185,129,.3);background:rgba(16,185,129,.03)}
+.dcard::before{content:'';position:absolute;left:-2.5rem;top:1.5rem;width:12px;height:12px;border-radius:50%;background:var(--accent);border:2px solid var(--bg)}
+.dcard.done::before{background:var(--green)}
+.dhdr{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1rem;flex-wrap:wrap;gap:.5rem}
+.dnum{font-family:var(--font-m);font-size:.7rem;color:var(--accent);letter-spacing:.15em;text-transform:uppercase;margin-bottom:.3rem}
+.dtitle{font-family:var(--font-h);font-size:1.1rem;font-weight:700}
+.ddate{font-size:.8rem;color:var(--muted);font-family:var(--font-m);padding:.25rem .75rem;border:1px solid var(--border);border-radius:100px}
+.pbadge{display:inline-block;padding:.2rem .7rem;border-radius:100px;font-size:.7rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;margin-left:.5rem}
+.ph{background:rgba(239,68,68,.15);color:#f87171;border:1px solid rgba(239,68,68,.2)}
+.pm{background:rgba(245,158,11,.15);color:#fcd34d;border:1px solid rgba(245,158,11,.2)}
+.stags{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.75rem}
+.stag{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:.3rem .75rem;font-size:.78rem;color:var(--dim);transition:all .2s;cursor:pointer;user-select:none}
+.stag:hover{border-color:var(--accent);color:var(--accent)}
+.stag.learned{background:rgba(16,185,129,.1);border-color:rgba(16,185,129,.3);color:var(--green)}
+.stag.learned::before{content:'✓ '}
+.dbtn{margin-top:1rem;padding:.45rem 1.2rem;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--dim);font-size:.8rem;cursor:pointer;font-family:var(--font-b);transition:all .2s}
+.dbtn:hover{border-color:var(--green);color:var(--green)}
+.dcard.done .dbtn{background:rgba(16,185,129,.1);border-color:rgba(16,185,129,.3);color:var(--green)}
+.tabs{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:2rem;padding-bottom:1rem;border-bottom:1px solid var(--border)}
+.tbtn{padding:.5rem 1.1rem;border-radius:100px;border:1px solid var(--border);background:transparent;color:var(--dim);font-size:.8rem;cursor:pointer;font-family:var(--font-b);transition:all .2s;white-space:nowrap}
+.tbtn.active,.tbtn:hover{background:var(--accent);border-color:var(--accent);color:#000}
+.tsec{display:none}.tsec.active{display:block}
+.tsec-title{font-family:var(--font-h);font-size:1.3rem;font-weight:700;margin-bottom:1.5rem;padding:1rem 1.5rem;background:var(--bg);border:1px solid var(--border);border-radius:12px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+.sgrid{display:grid;gap:1.25rem}
+.scard{background:var(--bg);border:1px solid var(--border);border-radius:16px;padding:1.75rem;transition:border-color .2s}
+.scard:hover{border-color:rgba(0,212,255,.2)}
+.smeta{display:flex;gap:.75rem;align-items:center;margin-bottom:1rem;flex-wrap:wrap}
+.snum{font-family:var(--font-m);font-size:.7rem;color:var(--muted)}
+.stopik{font-size:.72rem;padding:.2rem .65rem;border-radius:6px;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+.tm{background:rgba(255,107,53,.15);color:var(--accent2)}
+.tl2{background:rgba(0,212,255,.15);color:var(--accent)}
+.tg{background:rgba(124,58,237,.15);color:#a78bfa}
+.tt{background:rgba(245,158,11,.15);color:var(--gold)}
+.tmod{background:rgba(16,185,129,.15);color:var(--green)}
+.tf{background:rgba(99,102,241,.15);color:#818cf8}
+.stahun{font-size:.72rem;color:var(--muted);font-family:var(--font-m);margin-left:auto}
+.stxt{font-size:.95rem;line-height:1.7;margin-bottom:1.25rem}
+.stxt .fm{font-family:var(--font-m);background:var(--surface2);padding:.15rem .4rem;border-radius:4px;font-size:.88em;color:var(--accent)}
+.opts{display:grid;gap:.5rem;margin-bottom:1.25rem}
+.opt{display:flex;align-items:center;gap:.75rem;padding:.65rem 1rem;border-radius:10px;border:1px solid var(--border);cursor:pointer;transition:all .15s;font-size:0.88rem;background:var(--surface)}
+.opt:hover{border-color:rgba(0,212,255,.3);background:rgba(0,212,255,.03)}
+.opt.selected{border-color:var(--accent);background:rgba(0,212,255,.08)}
+.opt.correct{border-color:var(--green);background:rgba(16,185,129,.1);color:var(--green)}
+.opt.wrong{border-color:var(--red);background:rgba(239,68,68,.08);color:#f87171}
+.okey{width:26px;height:26px;border-radius:6px;background:var(--surface2);display:flex;align-items:center;justify-content:center;font-family:var(--font-m);font-size:.75rem;font-weight:600;flex-shrink:0}
+.opt.selected .okey{background:var(--accent);color:#000}
+.opt.correct .okey{background:var(--green);color:#000}
+.opt.wrong .okey{background:var(--red);color:#fff}
+.sact{display:flex;gap:.75rem;align-items:center;flex-wrap:wrap}
+.pmbox{margin-top:1rem;padding:1.25rem;border-radius:10px;background:rgba(124,58,237,.06);border:1px solid rgba(124,58,237,.2);font-size:.88rem;color:var(--dim);display:none;line-height:1.8}
+.pmbox.vis{display:block}
+.pmbox strong{color:#a78bfa}
+.pmbox .fm{font-family:var(--font-m);background:var(--surface2);padding:.15rem .4rem;border-radius:4px;font-size:.88em;color:var(--accent)}
+.povw{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1rem;margin-bottom:2.5rem}
+.stcard{background:var(--bg);border:1px solid var(--border);border-radius:14px;padding:1.25rem;text-align:center}
+.stnum{font-family:var(--font-h);font-size:2.2rem;font-weight:800;line-height:1;margin-bottom:.3rem}
+.stlbl{font-size:.78rem;color:var(--muted)}
+.cpprog{position:relative;width:120px;height:120px;margin:0 auto 1.5rem}
+.cpsvg{transform:rotate(-90deg)}
+.cpbg{fill:none;stroke:var(--surface2);stroke-width:8}
+.cpfill{fill:none;stroke:var(--accent);stroke-width:8;stroke-linecap:round;stroke-dasharray:339;stroke-dashoffset:339;transition:stroke-dashoffset .5s}
+.cptxt{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column}
+.cppct{font-family:var(--font-h);font-size:1.5rem;font-weight:800}
+.cpsub{font-size:.65rem;color:var(--muted);font-family:var(--font-m)}
+.scorebox{margin-top:2rem;padding:1.5rem;background:var(--bg);border:1px solid var(--border);border-radius:16px;display:flex;gap:2rem;align-items:center;flex-wrap:wrap}
+.scoretrack{flex:1;min-width:200px;background:var(--surface2);height:10px;border-radius:100px;overflow:hidden}
+.scorefill{height:100%;background:linear-gradient(90deg,var(--green),var(--accent));border-radius:100px;width:0;transition:width .5s}
+.mode-toggle{display:flex;align-items:center;gap:.5rem;background:var(--surface2);padding:.4rem 1rem;border-radius:100px;border:1px solid var(--border);font-size:.8rem}
+.switch{position:relative;display:inline-block;width:34px;height:20px}
+.switch input{opacity:0;width:0;height:0}
+.slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:var(--muted);transition:.3s;border-radius:34px}
+.slider:before{position:absolute;content:"";height:14px;width:14px;left:3px;bottom:3px;background-color:white;transition:.3s;border-radius:50%}
+input:checked + .slider{background-color:var(--accent)}
+input:checked + .slider:before{transform:translateX(14px)}
+.submit-to-btn{padding:.6rem 1.5rem;border-radius:8px;background:linear-gradient(135deg,var(--accent3),#aa55ff);color:#fff;border:none;font-weight:600;cursor:pointer;display:none;margin:1.5rem auto 0}
+footer{padding:2rem;text-align:center;border-top:1px solid var(--border);color:var(--muted);font-size:.8rem;font-family:var(--font-m)}
+footer span{color:var(--accent2)}
+.loading{text-align:center;padding:3rem;color:var(--dim)}
+.loading-spinner{width:40px;height:40px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin 1s linear infinite;margin:0 auto 1rem}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:640px){.nav-links{display:none}.tl{padding-left:1rem}.dcard::before{left:-1.5rem}}
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--border);border-radius:10px}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="#">⚛ UTUL Fisika</a>
+  <ul class="nav-links">
+    <li><a href="#materi">Materi</a></li>
+    <li><a href="#jadwal">Jadwal</a></li>
+    <li><a href="#latihan">Bank Soal</a></li>
+    <li><a href="#progress">Progress</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <div class="hero-content">
+    <div class="tag">⚡ Bank Soal Asli Zenius + Pembahasan Detail</div>
+    <h1>Kuasai <span class="grad">UTUL UGM Fisika</span><br>Sistem Akselerasi</h1>
+    <p class="hero-sub">Integrasi Soal Asli UTUL UGM 2016, 2017 & 2018 + Latihan Topik Komprehensif<br>Dilengkapi pembahasan konseptual yang mudah dipahami</p>
+    <div class="cd-bar">
+      <div class="cd-item"><span class="cd-num" id="cd-d">--</span><span class="cd-lbl">Hari</span></div>
+      <span class="cd-sep">:</span>
+      <div class="cd-item"><span class="cd-num" id="cd-h">--</span><span class="cd-lbl">Jam</span></div>
+      <span class="cd-sep">:</span>
+      <div class="cd-item"><span class="cd-num" id="cd-m">--</span><span class="cd-lbl">Menit</span></div>
+      <span class="cd-sep">:</span>
+      <div class="cd-item"><span class="cd-num" id="cd-s">--</span><span class="cd-lbl">Detik</span></div>
+    </div>
+    <div class="hero-cta">
+      <a href="#latihan" class="btn btn-p">📝 Latihan Soal Sekarang</a>
+    </div>
+  </div>
+</section>
+
+<section id="materi" class="alt">
+  <div class="container">
+    <div><div class="slbl">// distribusi soal</div><h2 class="stitle">Peta Materi Fisika UTUL UGM</h2><p class="ssub">Fokuskan belajarmu sesuai bobot topik analisis instan.</p></div>
+    <div class="mgrid">
+      <div class="mcard r"><div class="mpct">30%</div><div class="mname">Mekanika</div><div class="mdesc">Kinematika, Dinamika, Energi, Momentum, Rotasi, GHS, Gravitasi</div></div>
+      <div class="mcard b"><div class="mpct">25%</div><div class="mname">Listrik & Magnet</div><div class="mdesc">Coulomb, Gauss, Rangkaian, Induksi EM, Gaya Lorentz</div></div>
+      <div class="mcard o"><div class="mpct">20%</div><div class="mname">Fluida & Termodinamika</div><div class="mdesc">Archimedes, Bernoulli, Kalor, Hukum Gas, Siklus Carnot</div></div>
+      <div class="mcard p"><div class="mpct">15%</div><div class="mname">Gelombang & Optik</div><div class="mdesc">Gelombang, Bunyi, Doppler, Cermin, Lensa, Difraksi</div></div>
+      <div class="mcard g"><div class="mpct">10%</div><div class="mname">Fisika Modern</div><div class="mdesc">Fotolistrik, Radioaktivitas, de Broglie, Relativitas</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="jadwal">
+  <div class="container">
+    <div><div class="slbl">// rencana belajar</div><h2 class="stitle">Jadwal Belajar Harian</h2><p class="ssub">Tandai progres belajar harian Anda di bawah ini secara mandiri.</p></div>
+    <div class="tl">
+      <div class="dcard" id="day-1">
+        <div class="dhdr"><div><div class="dnum">Hari 01</div><div class="dtitle">Mekanika Terintegrasi <span class="pbadge ph">Prioritas Tinggi</span></div></div></div>
+        <div class="stags"><span class="stag" onclick="this.classList.toggle('learned')">Kinematika & Dinamika</span><span class="stag" onclick="this.classList.toggle('learned')">Momentum & Rotasi</span></div>
+      </div>
+      <div class="dcard" id="day-2">
+        <div class="dhdr"><div><div class="dnum">Hari 02</div><div class="dtitle">Termodinamika & Fluida <span class="pbadge pm">Prioritas Sedang</span></div></div></div>
+        <div class="stags"><span class="stag" onclick="this.classList.toggle('learned')">Hukum Gas Ideal</span><span class="stag" onclick="this.classList.toggle('learned')">Archimedes & Bernoulli</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="latihan" class="alt">
+  <div class="container">
+    <div>
+      <div class="slbl">// bank soal lengkap</div>
+      <h2 class="stitle">Bank Soal & Simulasi Ujian</h2>
+      <p class="ssub">Pilih salah satu filter tab di bawah ini. Anda dapat mengaktifkan <strong>Mode Tryout</strong> untuk menyembunyikan pembahasan instan hingga selesai mengklik semua soal.</p>
+    </div>
+
+    <div class="tabs" id="tabs-container"></div>
+
+    <div class="tsec active">
+      <div class="tsec-title" id="sec-title-area">
+        <span>Memuat Data Soal...</span>
+        <div class="mode-toggle">
+          <span>Mode Tryout</span>
+          <label class="switch">
+            <input type="checkbox" id="tryout-toggle" onchange="toggleTryoutMode()">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+      <div class="sgrid" id="questions-pool">
+        <div class="loading"><div class="loading-spinner"></div>Memuat soal...</div>
+      </div>
+      <button class="submit-to-btn" id="submit-to-btn" onclick="gradeTryout()">Kirim Jawaban Tryout & Lihat Hasil</button>
+    </div>
+
+    <div class="scorebox" id="progress" style="margin-top:4rem;">
+      <div class="cpprog">
+        <svg class="cpsvg" width="120" height="120">
+          <circle class="cpbg" cx="60" cy="60" r="54"></circle>
+          <circle class="cpfill" id="progress-circle" cx="60" cy="60" r="54"></circle>
+        </svg>
+        <div class="cptxt">
+          <span class="cppct" id="pct-label">0%</span>
+          <span class="cpsub">Selesai</span>
+        </div>
+      </div>
+      <div style="flex:1;">
+        <h3 style="font-family:var(--font-h); margin-bottom:.5rem;">Statistik Progres Belajar Anda</h3>
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap:1rem;">
+          <div class="stcard"><div class="stnum" id="stat-total">0</div><div class="stlbl">Total Soal</div></div>
+          <div class="stcard"><div class="stnum" id="stat-done" style="color:var(--accent)">0</div><div class="stlbl">Dikerjakan</div></div>
+          <div class="stcard"><div class="stnum" id="stat-correct" style="color:var(--green)">0</div><div class="stlbl">Benar</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 UTUL UGM Fisika. Powered by <span>Zenius Engine Code Integration</span>.</p>
+</footer>
+
+<script>
+// ========== GLOBAL STATE ==========
+let currentFilter = "2018";
+let userAnswers = {};
+let tryoutModeActive = false;
+let tryoutSubmitted = false;
+let SOAL_DATABASE = [];
+
+const SOAL_FILES = {
+  "2018": "js/soal-2018.js",
+  "2017": "js/soal-2017.js",
+  "2016": "js/soal-2016.js",
+  "Mekanika": "js/soal-mekanika.js",
+  "Listrik & Magnet": "js/soal-listrik.js",
+  "Zat & Kalor": "js/soal-zatkalor.js",
+  "Gelombang": "js/soal-gelombang.js",
+  "Fisika Modern": "js/soal-fismod.js"
+};
+
+function loadScript(src) {
+  return new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = src;
+    script.onload = resolve;
+    script.onerror = reject;
+    document.head.appendChild(script);
+  });
+}
+
+async function loadAllQuestions() {
+  const loadingDiv = document.getElementById('questions-pool');
+  loadingDiv.innerHTML = '<div class="loading"><div class="loading-spinner"></div>Memuat semua soal...</div>';
+  
+  try {
+    for (const [key, file] of Object.entries(SOAL_FILES)) {
+      await loadScript(file);
+    }
+    if (window.SOAL_2018) SOAL_DATABASE.push(...window.SOAL_2018);
+    if (window.SOAL_2017) SOAL_DATABASE.push(...window.SOAL_2017);
+    if (window.SOAL_2016) SOAL_DATABASE.push(...window.SOAL_2016);
+    if (window.SOAL_MEKANIKA) SOAL_DATABASE.push(...window.SOAL_MEKANIKA);
+    if (window.SOAL_LISTRIK) SOAL_DATABASE.push(...window.SOAL_LISTRIK);
+    if (window.SOAL_ZATKALOR) SOAL_DATABASE.push(...window.SOAL_ZATKALOR);
+    if (window.SOAL_GELOMBANG) SOAL_DATABASE.push(...window.SOAL_GELOMBANG);
+    if (window.SOAL_FISMOD) SOAL_DATABASE.push(...window.SOAL_FISMOD);
+    
+    console.log(`Berhasil memuat ${SOAL_DATABASE.length} soal`);
+    setupTabs();
+    renderQuestions();
+    updateProgressWidget();
+  } catch (error) {
+    console.error('Gagal memuat soal:', error);
+    loadingDiv.innerHTML = '<p style="color:var(--red); text-align:center;">Gagal memuat soal. Silakan refresh halaman.</p>';
+  }
+}
+
+function startCountdown() {
+  const target = new Date(2026, 5, 6, 8, 0, 0);
+  function update() {
+    const now = new Date();
+    const diff = target - now;
+    if (diff <= 0) {
+      document.querySelectorAll(".cd-num").forEach(el => el.innerText = "00");
+      return;
+    }
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff % (86400000)) / (3600000));
+    const mins = Math.floor((diff % 3600000) / 60000);
+    const secs = Math.floor((diff % 60000) / 1000);
+    document.getElementById("cd-d").innerText = String(days).padStart(2,'0');
+    document.getElementById("cd-h").innerText = String(hours).padStart(2,'0');
+    document.getElementById("cd-m").innerText = String(mins).padStart(2,'0');
+    document.getElementById("cd-s").innerText = String(secs).padStart(2,'0');
+  }
+  update();
+  setInterval(update, 1000);
+}
+
+function setupTabs() {
+  const tabsData = [
+    { id: "2018", lbl: "🏆 UTUL 2018" },
+    { id: "2017", lbl: "🏆 UTUL 2017" },
+    { id: "2016", lbl: "🏆 UTUL 2016" },
+    { id: "Mekanika", lbl: "⚡ Mekanika" },
+    { id: "Listrik & Magnet", lbl: "🔌 Listrik Magnet" },
+    { id: "Zat & Kalor", lbl: "🌡 Zat & Kalor" },
+    { id: "Gelombang", lbl: "🔊 Gelombang Bunyi" },
+    { id: "Fisika Modern", lbl: "☢ Fisika Modern" }
+  ];
+  const container = document.getElementById("tabs-container");
+  container.innerHTML = tabsData.map(t => `<button class="tbtn ${t.id === currentFilter ? 'active' : ''}" onclick="changeFilter('${t.id}', this)">${t.lbl}</button>`).join('');
+}
+
+function changeFilter(filterId, btnEl) {
+  currentFilter = filterId;
+  document.querySelectorAll(".tbtn").forEach(btn => btn.classList.remove("active"));
+  btnEl.classList.add("active");
+  renderQuestions();
+}
+
+function renderQuestions() {
+  const pool = document.getElementById("questions-pool");
+  const filtered = SOAL_DATABASE.filter(q => q.tag === currentFilter);
+  if(filtered.length === 0) {
+    pool.innerHTML = "<p style='color:var(--muted); text-align:center; padding:2rem;'>Belum ada soal pada kategori ini.</p>";
+    return;
+  }
+  pool.innerHTML = filtered.map((q) => {
+    const isAnswered = userAnswers[q.id] !== undefined;
+    const selectedAns = userAnswers[q.id];
+    let optionsHtml = q.opts.map((opt, oIdx) => {
+      const letter = String.fromCharCode(65+oIdx);
+      let cssClass = "opt";
+      if (isAnswered) {
+        if (!tryoutModeActive || tryoutSubmitted) {
+          if (letter === q.kunci) cssClass += " correct";
+          else if (letter === selectedAns) cssClass += " wrong";
+        } else {
+          if (letter === selectedAns) cssClass += " selected";
+        }
+      }
+      return `<div class="${cssClass}" onclick="selectOption('${q.id}', '${letter}', this)"><span class="okey">${letter}</span> ${opt}</div>`;
+    }).join('');
+    const showPemBox = isAnswered && (!tryoutModeActive || tryoutSubmitted);
+    return `<div class="scard" id="card-${q.id}">
+      <div class="smeta"><span class="snum">#${q.id.toUpperCase()}</span><span class="stopik tm">${q.topik}</span><span class="stahun">${q.tahun}</span></div>
+      <div class="stxt">${q.txt}</div>
+      <div class="opts">${optionsHtml}</div>
+      <div class="pmbox ${showPemBox ? 'vis' : ''}"><strong>📖 PEMBAHASAN DETAIL:</strong><br>${q.pem}</div>
+    </div>`;
+  }).join('');
+  const submitBtn = document.getElementById("submit-to-btn");
+  if (tryoutModeActive && !tryoutSubmitted) submitBtn.style.display = "block";
+  else submitBtn.style.display = "none";
+}
+
+function selectOption(soalId, letter, element) {
+  if (userAnswers[soalId] !== undefined && (!tryoutModeActive || tryoutSubmitted)) return;
+  const qObj = SOAL_DATABASE.find(q => q.id === soalId);
+  userAnswers[soalId] = letter;
+  if (!tryoutModeActive) {
+    const card = document.getElementById(`card-${soalId}`);
+    const allOpts = card.querySelectorAll(".opt");
+    allOpts.forEach((opt, oIdx) => {
+      const currentLetter = String.fromCharCode(65+oIdx);
+      opt.classList.remove("selected","correct","wrong");
+      if (currentLetter === qObj.kunci) opt.classList.add("correct");
+      else if (currentLetter === letter) opt.classList.add("wrong");
+    });
+    const pemBox = card.querySelector(".pmbox");
+    pemBox.classList.add("vis");
+    if (letter !== qObj.kunci) alert(`Jawaban Anda (${letter}) kurang tepat! Kunci benar: ${qObj.kunci}\n\nSilakan lihat pembahasan untuk memahami konsepnya.`);
+    updateProgressWidget();
+  } else {
+    const card = document.getElementById(`card-${soalId}`);
+    const allOpts = card.querySelectorAll(".opt");
+    allOpts.forEach((opt, oIdx) => {
+      const currentLetter = String.fromCharCode(65+oIdx);
+      opt.classList.remove("selected");
+      if (currentLetter === letter) opt.classList.add("selected");
+    });
+  }
+}
+
+function toggleTryoutMode() {
+  const toggle = document.getElementById("tryout-toggle");
+  tryoutModeActive = toggle.checked;
+  tryoutSubmitted = false;
+  userAnswers = {};
+  renderQuestions();
+  updateProgressWidget();
+}
+
+function gradeTryout() {
+  const filtered = SOAL_DATABASE.filter(q => q.tag === currentFilter);
+  const unanswered = filtered.filter(q => userAnswers[q.id] === undefined).length;
+  if (unanswered > 0 && !confirm(`Masih ada ${unanswered} soal belum dijawab. Kirim sekarang?`)) return;
+  tryoutSubmitted = true;
+  renderQuestions();
+  updateProgressWidget();
+  let benar = 0, totalDikerjakan = 0;
+  filtered.forEach(q => {
+    if(userAnswers[q.id]) {
+      totalDikerjakan++;
+      if(userAnswers[q.id] === q.kunci) benar++;
+    }
+  });
+  alert(`✅ TRYOUT SELESAI!\n\nSkor Anda: ${benar} Benar dari ${totalDikerjakan} soal yang dikerjakan.\n\n📖 Pembahasan semua soal telah dibuka. Pelajari yang masih salah ya!`);
+}
+
+function updateProgressWidget() {
+  const total = SOAL_DATABASE.length;
+  let done = 0, correct = 0;
+  SOAL_DATABASE.forEach(q => {
+    if(userAnswers[q.id]) {
+      done++;
+      if(userAnswers[q.id] === q.kunci) correct++;
+    }
+  });
+  const pct = total>0 ? Math.round((done/total)*100) : 0;
+  document.getElementById("stat-total").innerText = total;
+  document.getElementById("stat-done").innerText = done;
+  document.getElementById("stat-correct").innerText = correct;
+  document.getElementById("pct-label").innerText = pct + "%";
+  const fillCircle = document.getElementById("progress-circle");
+  const offset = 339 - (339 * pct / 100);
+  fillCircle.style.strokeDashoffset = offset;
+}
+
+window.addEventListener("DOMContentLoaded", async () => {
+  startCountdown();
+  await loadAllQuestions();
+});
+</script>
+</body>
+</html>
