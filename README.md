@@ -15,7 +15,13 @@ Web ini **100% GRATIS** dan dapat diakses oleh siapa saja, kapan saja, dari pera
 https://burhanudinera2018.github.io/utul-ugm-fisika/
 
 
-📲 **Atau scan QR Code di bawah ini:**
+- **Atau scan QR Code di bawah ini:**
+
+<p align="center">
+  <img src="https_burhanudinera2018_github_io_utul-ugm-fisika_.png" alt="QR Code UTUL UGM Fisika" width="250" height="250">
+  <br>
+  <em>Scan QR Code untuk akses cepat ke web</em>
+</p>
 
 
 ---
@@ -52,6 +58,7 @@ https://burhanudinera2018.github.io/utul-ugm-fisika/
 ---
 
 ## 🗂️ Struktur Folder
+```
 UTUL_Web/
 ├── index.html # Halaman utama web
 ├── README.md # Dokumentasi proyek
@@ -66,7 +73,7 @@ UTUL_Web/
 ├── soal-zatkalor.js # Latihan Zat & Kalor
 ├── soal-gelombang.js # Latihan Gelombang & Bunyi
 └── soal-fismod.js # Latihan Fisika Modern
-
+```
 
 ---
 
@@ -166,26 +173,27 @@ https://creativecommons.org/licenses/by-nc/4.0/
 ## 🤝 Kontribusi
 Jika Anda ingin berkontribusi mengembangkan web ini (misalnya: menambah soal, memperbaiki pembahasan, atau menambah fitur), silakan:
 
-Fork repository ini
+- Fork repository ini
 
-Buat branch baru (git checkout -b fitur-anda)
+- Buat branch baru (git checkout -b fitur-anda)
 
-Commit perubahan (git commit -m 'Menambahkan fitur X')
+- Commit perubahan (git commit -m 'Menambahkan fitur X')
 
-Push ke branch (git push origin fitur-anda)
+- Push ke branch (git push origin fitur-anda)
 
-Buka Pull Request
+- Buka Pull Request
 
 Atau laporkan isu/saran melalui Issues di repository GitHub.
 
 📧 Kontak Penulis
 Jika ada pertanyaan, saran, atau jika Anda adalah pemilik hak cipta yang ingin menghubungi penulis, silakan kirim pesan melalui:
 
-📱 WhatsApp: [Nomor WhatsApp Anda]
+- 📱 WhatsApp: [Nomor WhatsApp Anda]
 
-📧 Email: [Alamat email Anda]
+- 📧 Email: [Alamat email Anda]
 
-💬 GitHub Issues: [Link repository Anda]
+- 💬 GitHub Issues: [Link repository Anda]
+
 
 ⚠️ Catatan: Penulis tidak menerima sponsor atau tawaran komersial apapun terkait web ini.
 
@@ -212,11 +220,11 @@ Keterangan	Detail
 ## ⭐ Dukung Web Ini
 Jika web ini bermanfaat untuk Anda atau adik-adik Anda, silakan:
 
-📲 Share tautan ini ke grup belajar, medsos, atau teman-teman
+- 📲 Share tautan ini ke grup belajar, medsos, atau teman-teman
 
-⭐ Star repository ini di GitHub (jika Anda memiliki akun GitHub)
+- ⭐ Star repository ini di GitHub (jika Anda memiliki akun GitHub)
 
-💬 Berikan testimoni atau saran melalui kontak yang tersedia
+- 💬 Berikan testimoni atau saran melalui kontak yang tersedia
 
 Selamat belajar dan sukses UTUL UGM 2026! 🎓🚀
 
