@@ -142,9 +142,9 @@ Web ini diperuntukkan bagi:
 ## ⚠️ DISCLAIMER
 Materi soal yang disajikan dalam web ini bersumber dari Zenius Education (https://www.zenius.net) dan dibagikan secara GRATIS dengan tujuan mulia:
 
-✅ Membantu para pelajar yang sedang mempersiapkan diri menghadapi ujian UTUL UGM 2026
-✅ Memberikan akses belajar yang mudah dan murah bagi semua kalangan
-✅ Meningkatkan kualitas pendidikan Indonesia melalui berbagi ilmu
+- ✅ Membantu para pelajar yang sedang mempersiapkan diri menghadapi ujian UTUL UGM 2026
+- ✅ Memberikan akses belajar yang mudah dan murah bagi semua kalangan
+- ✅ Meningkatkan kualitas pendidikan Indonesia melalui berbagi ilmu
 
 Penulis tidak bermaksud untuk mengkomersialkan materi ini.
 Penulis tidak mengambil royalty, keuntungan, atau bentuk kompensasi finansial apapun dari web ini.
@@ -188,11 +188,11 @@ Atau laporkan isu/saran melalui Issues di repository GitHub.
 📧 Kontak Penulis
 Jika ada pertanyaan, saran, atau jika Anda adalah pemilik hak cipta yang ingin menghubungi penulis, silakan kirim pesan melalui:
 
-- 📱 WhatsApp: [Nomor WhatsApp Anda]
+- 📱 WhatsApp: [Rahasiakan pesan ini]
 
-- 📧 Email: [Alamat email Anda]
+- 📧 Email: [studyburhanudin@gmail.com]
 
-- 💬 GitHub Issues: [Link repository Anda]
+- 💬 GitHub Issues: [https://github.com/burhanudinera2018/utul-ugm-fisika]
 
 
 ⚠️ Catatan: Penulis tidak menerima sponsor atau tawaran komersial apapun terkait web ini.
